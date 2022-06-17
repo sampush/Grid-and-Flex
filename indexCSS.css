@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lexend Deca;
+}
+body{
+    background-color: #fff
+}
+main{
+    
+    display:flex;
+    margin: 350px;
+    align-items: center;
+    font-size: 15px;
+    color: #ffff;
+    height:100vh;
+
+}
+.div h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+    
+}
+.sedan{
+    background-color:  hsl(31, 77%, 52%);;
+    padding:40px;
+    font-size: 15px;;
+}
+.suv{
+
+    padding: 40px;
+    font-size: 15px;
+    background-color: hsl(184, 100%, 22%) ;
+
+}
+.suv button{
+    color: hsl(184, 100%, 22%);
+}
+.lux{
+    padding:40px;
+    font-size: 15px;
+    background-color: hsl(179, 100%, 13%);
+ 
+}
+.lux button{
+    color: hsl(179, 100%, 13%);
+}
+img{
+    max-width: 25%;
+    max-height: 25%;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    color:hsl(31, 77%, 52%);
+    border-radius: 15px;
+    border-style: none;
+    font-size: 10px;
+
+}
+@font-face {
+    font-family: Lexend Deca;
+    src: url(shttps://fonts.google.com/specimen/Lexend+Deca);
+    font-weight: 400;
+ }
